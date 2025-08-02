@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Noodle Length Finder 🍜</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🍜 Noodle Length Finder</h1>
+
+    <form id="noodleForm">
+      <select id="brandSelect" required>
+        <option value="">Select Brand</option>
+        <option value="Maggi">🍝 Maggi</option>
+        <option value="Yippee">🥢 Yippee</option>
+        <option value="Top Ramen">🍜 Top Ramen</option>
+        <option value="Knorr">🥣 Knorr</option>
+        <option value="Samyang">🔥 Samyang</option>
+        <option value="Indomie">🇮🇩 Indomie</option>
+        <option value="Buldak">🌶️ Buldak</option>
+        <option value="Shin Ramyeon">🍥 Shin Ramyeon</option>
+      </select>
+      <button type="submit">Find Length</button>
+    </form>
+    <input type="file" id="imageUpload" accept="image/*" />
+<img id="imagePreview" src="" alt="Uploaded Noodle Image" style="display:none;" />
+
+
+    <div id="resultArea" class="result">
+      <p id="brandOutput"></p>
+      <p id="lengthOutput"></p>
+    </div>
+
+    <canvas id="chartCanvas" height="200"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
