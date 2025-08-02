@@ -29,64 +29,65 @@ For Software:
 - HTML
 - CSS
 - JAVA SCRIPT
-- 
+
 
 ### Implementation
-For Software:
+This is a simple front-end web project built using":
+-HTML
+-CSS
+-Java Script
 # Installation
-[commands]
+# Clone the repository
+git clone https://github.com/ithasleema/Noodles-length-tracker.git
+
+# Go into the project directory
+cd Noodles-length-tracker
+
+# Open the site in your browser
+start index.html  # For Windows
+open index.html   # For macOS
+xdg-open index.html  # For Linux
+
 
 # Run
-[commands]
+Once the project folder is open:
+
+Double-click on index.html or run it in a live server.
+
+You can:
+
+Select a noodle brand
+
+Upload an image
+
+Track and compare noodle lengths easily
 
 ### Project Documentation
 For Software:
+This project helps users measure and compare the length of noodles from various brands. It includes:
+
+Brand selection
+
+Noodle length tracking logic
+
+Image upload and preview
+
+Chart for visual comparison
+
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![https://drive.google.com/file/d/1eiLqsylAr4DNl8wxi1IWEPFallK3braw/view?usp=drive_link]
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![https://drive.google.com/file/d/1Nr3J-Kz3lH0R_4MIhfGeQeld59zdCTdm/view?usp=sharing]
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![https://drive.google.com/file/d/1tMg2HXEwiU0qWDlcOWE1n65EabQIGGuB/view?usp=sharing]
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- THASLEEMA NAZREN: [HTML,CSS]
+- MALAVIKA.R: [CSS,JAVA SCRIPT]
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
